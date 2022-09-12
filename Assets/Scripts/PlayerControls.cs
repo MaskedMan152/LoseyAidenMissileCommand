@@ -32,7 +32,7 @@ public class PlayerControls : MonoBehaviour
     {
         --lives;
         Debug.Log(lives);
-        if(lives < 0)
+        if(lives < 1)
         {
             SceneManager.LoadScene("SampleScene");
         }
