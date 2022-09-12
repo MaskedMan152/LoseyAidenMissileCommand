@@ -18,6 +18,6 @@ public class Rotation : MonoBehaviour
         gunAim.z = 0;
 
         float gunAngle = Mathf.Atan2(gunAim.y, gunAim.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.Euler(new Vector3(0, 0, gunAngle + -90));
+        transform.rotation = Quaternion.Euler(new Vector3(0, 0, gunAngle - 90));
     }
 }

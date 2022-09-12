@@ -6,6 +6,7 @@ public class MissileSpawns : MonoBehaviour
 {
     public int timing;
     public int target;
+    public List<GameObject> targets;
     public Transform creationPlace1;
     public Transform creationPlace2;
     public Transform creationPlace3;
